@@ -2,6 +2,16 @@
 
 面向 Codex / Codex CLI 的本科软件工程论文技能包，聚焦“基于真实项目仓库完成论文规划、定稿改写、降查重、降 AIGC、图表恢复、运行截图补充、DOCX 收口”这类高频任务。
 
+## 来源说明
+
+本仓库在源项目基础上整理、扩展并开源发布，已明确保留来源标记以尊重原创者。
+
+- 源项目：[`lishix520/academic-paper-skills`](https://github.com/lishix520/academic-paper-skills/)
+- 当前仓库主要是在实际使用过程中，对学术论文相关 skills、references、prompt 模板、`agents/openai.yaml` 元数据和改稿流程做了补充与适配
+- 如果你继续分发或二次修改本仓库，也建议保留这条来源说明
+
+感谢源项目的公开分享与思路贡献。
+
 本仓库当前包含两个可配合使用的 skills：
 
 - `academic-paper-strategist`：负责论文规划、证据映射、keep/rewrite/delete 矩阵、检测报告热点分析、图表与截图规划、composer handoff。
