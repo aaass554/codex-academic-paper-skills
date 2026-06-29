@@ -55,6 +55,8 @@ cp -R skills/academic-paper-composer ~/.codex/skills/
 
 如果你希望直接在自己的 skills 仓库中维护，也可以按需合并目录结构。
 
+更多安装、选择 skill、隐私材料处理和排障说明见：[Installation and FAQ](docs/installation-and-faq.md)。
+
 ## 本地校验
 
 维护者可以运行轻量校验脚本，检查 skill 目录、引用文件和 README 证据链接是否完整：
@@ -118,7 +120,7 @@ python3 scripts/validate_repo.py
 - Keep validation checks for skill metadata, required references, and script paths.
 - Expand runnable examples for both `academic-paper-strategist` and `academic-paper-composer`.
 - Use [Release Checklist](RELEASE_CHECKLIST.md) so tagged versions include concise changelogs and installation notes.
-- Improve documentation for common user questions, including Codex CLI setup, skill installation, and safe handling of private thesis materials.
+- Keep [Installation and FAQ](docs/installation-and-faq.md) current as common user questions change.
 - Keep the two-skill boundary clear: strategist for planning and evidence mapping, composer for working-draft revision and final formatting support.
 
 ## 作者
