@@ -32,6 +32,8 @@
 skills/
   academic-paper-strategist/
   academic-paper-composer/
+examples/
+scripts/
 ```
 
 每个 skill 目录内包含：
@@ -53,7 +55,20 @@ cp -R skills/academic-paper-composer ~/.codex/skills/
 
 如果你希望直接在自己的 skills 仓库中维护，也可以按需合并目录结构。
 
+## 本地校验
+
+维护者可以运行轻量校验脚本，检查 skill 目录、引用文件和 README 证据链接是否完整：
+
+```bash
+python3 scripts/validate_repo.py
+```
+
 ## 使用示例
+
+更完整的可复制示例见：
+
+- [Strategist example](examples/strategist-example.md)
+- [Composer example](examples/composer-example.md)
 
 ### 1. 先做论文规划
 
@@ -100,9 +115,9 @@ cp -R skills/academic-paper-composer ~/.codex/skills/
 
 ## Maintenance roadmap（维护路线图）
 
-- Add validation checks for skill metadata, required references, and script paths.
+- Keep validation checks for skill metadata, required references, and script paths.
 - Expand runnable examples for both `academic-paper-strategist` and `academic-paper-composer`.
-- Add release automation so tagged versions include a concise changelog and installation notes.
+- Use [Release Checklist](RELEASE_CHECKLIST.md) so tagged versions include concise changelogs and installation notes.
 - Improve documentation for common user questions, including Codex CLI setup, skill installation, and safe handling of private thesis materials.
 - Keep the two-skill boundary clear: strategist for planning and evidence mapping, composer for working-draft revision and final formatting support.
 
