@@ -82,6 +82,30 @@ cp -R skills/academic-paper-composer ~/.codex/skills/
 - 优先重写高收益热点页，而不是整篇盲改
 - 在最终定稿阶段显式检查字体、颜色、标题样式、表格字号和目录锚点问题
 
+## 采用证据
+
+本仓库对应的公开分享视频和用户反馈显示，这套工作流已经被真实用户用于本科论文规划和改稿场景。
+
+- 视频播放量约 5.3 万，评论 173 条。
+- 数据中心显示播放量在近五稿对比中排名第 1，游客占比约 99.4%。
+- 用户反馈集中在 skill 安装、Codex 使用方式、论文规划和 composer/strategist 两个 skill 的下载与复用。
+
+证据截图：
+
+- [视频数据总览](docs/evidence/video-analytics-overview.png)
+- [播放来源与稿件对比](docs/evidence/video-traffic-sources.png)
+- [视频简介与项目说明](docs/evidence/video-post-summary.png)
+- [用户反馈 1](docs/evidence/user-feedback-01.png)
+- [用户反馈 2](docs/evidence/user-feedback-02.png)
+
+## Maintenance roadmap（维护路线图）
+
+- Add validation checks for skill metadata, required references, and script paths.
+- Expand runnable examples for both `academic-paper-strategist` and `academic-paper-composer`.
+- Add release automation so tagged versions include a concise changelog and installation notes.
+- Improve documentation for common user questions, including Codex CLI setup, skill installation, and safe handling of private thesis materials.
+- Keep the two-skill boundary clear: strategist for planning and evidence mapping, composer for working-draft revision and final formatting support.
+
 ## 作者
 
 - 记得晚安 JDWA
